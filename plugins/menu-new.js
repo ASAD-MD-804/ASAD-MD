@@ -11,9 +11,9 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━〔 *${config.ASAD-MD}* 〕━━━┈⊷
+        const menuCaption = `╭━━━〔 *${config.𝑨𝑺𝑨𝑫-𝑴𝑫}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.ANAYAT-KHAAN}*
+┃★│ 👑 Owner : *${config.𝑨𝑵𝑨𝒀𝑨𝑻-𝑲𝑯𝑨𝑨𝑵}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 📋 *ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ᴛᴏ ᴇxᴘʟᴏʀᴇ:*
@@ -40,7 +40,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363420933039839@newsletter',
-                newsletterName: config.ANAYAT-KHAAN,
+                newsletterName: config.𝑨𝑵𝑨𝒀𝑨𝑻-𝑲𝑯𝑨𝑨𝑵,
                 serverMessageId: 143
             }
         };
